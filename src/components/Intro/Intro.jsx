@@ -27,15 +27,14 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>The Prettiest</span>
+          <span>Wedding Organizer</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          "Seperti apa wedding impianmu? Mari wujudkan bersama The Prettiest Wedding Organizer. Melayani segala request konsep wedding sesuai dengan keinginanmu. Jangan ragu lagi, konsultasikan wedding impian yang kamu mau hanya pada The Prettiest Wedding Organizer!"
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">Message</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
@@ -64,7 +63,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="The Prettiest" text2="WO" />
         </motion.div>
 
         {/* animation */}
@@ -75,14 +74,14 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Best Wedding" text2="Organizer" />
         </motion.div>
 
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div className="blur" style={{ background: "rgb(252, 230, 149)" }}></div>
         <div
           className="blur"
           style={{
-            background: "#C1F5FF",
+            background: "#f29477",
             top: "17rem",
             width: "21rem",
             height: "11rem",

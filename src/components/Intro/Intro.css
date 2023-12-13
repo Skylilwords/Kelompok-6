@@ -29,7 +29,7 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 14px;
+  font-size: 20px;
   color: var(--gray);
   margin-top: 10px;
 }
@@ -58,8 +58,8 @@
   z-index: 1;
 }
 .i-right > :nth-child(1) {
-  transform: scale(0.69);
-  left: -15%;
+  transform: scale(0.70);
+  left: 10%;
   top: -9%;
 }
 .i-right > :nth-child(2) {
@@ -68,12 +68,12 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
+  transform: scale(1.0);
+  left: 10%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
-  top: -19%;
+  top: -55%;
   left: -24%;
   border-radius: 50%;
   padding: 0;
@@ -85,8 +85,8 @@
   width: 22rem;
   height: 14rem;
   border-radius: 50%;
-  background: #edd0ff;
-  filter: blur(212px);
+  background: #f16203;
+  filter: blur(190px);
   z-index: -9;
   top: -18%;
   left: 56%;

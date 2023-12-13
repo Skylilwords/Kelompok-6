@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
+import Beauty from "../../img/beauty.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
@@ -23,23 +23,27 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Works for All these
           </span>
-          <span>Brands & Clients</span>
+          <span>Brands Collaboration</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Beberapa Brands yang bekerjasama dengan kami
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
             <br />
-            y dummy text of printingLorem
+            - Bride Makeup
             <br />
-            ispum is simpley dummy text of printing
+            - Fotographer
+            <br />
+            - Venue
+            <br />
+            - Catering
+            <br />
+            - Decoration
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Message</button>
           </Link>
           <div
             className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
+            style={{ background: "#f5f4f0" }}
           ></div>
         </div>
 
@@ -60,7 +64,7 @@ const Works = () => {
             <img src={Fiverr} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Beauty} alt="" />
           </div>{" "}
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
@@ -70,7 +74,7 @@ const Works = () => {
           </div>
         </motion.div>
         {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
+        <div className="w-backCircle orangeCircle"></div>
         <div className="w-backCircle yellowCircle"></div>
       </div>
     </div>

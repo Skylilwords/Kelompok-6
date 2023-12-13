@@ -36,10 +36,11 @@ const Contact = () => {
         <div className="awesome">
           {/* darkMode */}
           <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+          <span>Contact
+          </span>
           <div
             className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
+            style={{ background: "#f5f4f0" }}
           ></div>
         </div>
       </div>
@@ -53,7 +54,7 @@ const Contact = () => {
           <span>{done && "Thanks for Contacting me"}</span>
           <div
             className="blur c-blur1"
-            style={{ background: "var(--purple)" }}
+            style={{ background: "var(--white)" }}
           ></div>
         </form>
       </div>

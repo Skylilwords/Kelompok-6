@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 .awesome > :nth-child(2) {
-  color: var(--orange);
+  color: var(--black);
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -101,13 +101,13 @@
   /* darkMode */
   z-index: 1;
 }
-.blueCircle {
-  background: #1949b8;
+.orangeCircle {
+  background: #dd4205;
   left: 18rem;
   top: 0rem;
 }
 .yellowCircle {
-  background: #f5c32c;
+  background: #ee8c54;
   left: 18rem;
   top: 8rem;
 }
